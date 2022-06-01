@@ -77,7 +77,7 @@ public class JCOParticipanteServiceImpl implements JCOParticipanteService {
         //Obtencion Repositorio SAP
         JCoRepository repo = destination.getRepository();
 
-        //Obtengo la funcion RFC SAP
+        //Obtengo la funcion RFC SAPp
         JCoFunction stfcConnection = repo.getFunction("ZRFC_DEMO_BTP");
 
         //Obtengo los parametros de importacion de la RFC
